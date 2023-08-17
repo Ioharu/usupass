@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para los contenedores principales */
+.login-container,
+.survey-container {
+  text-align: center;
+  margin-top: 100px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h2,
+.survey-container h2 {
+  margin-bottom: 20px;
+}
+
+/* Estilos para los formularios */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="radio"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Alinear botón de envío al centro */
+button[type="submit"] {
+  align-self: center;
+}
+
+/* Estilos adicionales para personalizar la encuesta */
+/* Si deseas agregar estilos específicos para las opciones de la encuesta,
+ puedes hacerlo aquí */
